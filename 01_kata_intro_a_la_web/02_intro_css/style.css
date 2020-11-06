@@ -1,0 +1,24 @@
+/* selector */
+h1  {
+    /* propiedad : valor */
+       color: rgba(0, 238, 255, 0.863);
+   
+   }
+   
+
+   body /* selector */
+    {
+    /* propiedad : valor */
+       color: rgb(250, 4, 168);
+       
+    }
+
+       
+    body /* selector */
+    {
+        background-color: rgb(255, 209, 224);
+    }
+
+
+   }
+   

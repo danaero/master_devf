@@ -1,0 +1,92 @@
+body {display: flex;}
+
+.padre{
+    border: black 3px solid;  
+    background: black;
+    height: 600px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: space-between
+
+
+  }
+  
+  .hijo{
+      background: white;  
+      height: 280px;
+      width: 280px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: space-between
+  }
+  
+
+.nieto{
+    background: pink;   
+    height: 250px;
+    width: 250px;
+}
+
+.hijo2{
+    background: rgb(255, 255, 255);   
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end
+}
+
+
+.nieto2{
+  background: pink;  
+  height: 250px;
+  width: 250px;
+}
+
+.madre{
+    border: black 3px solid;  
+    background: black;
+    height: 600px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end
+
+
+  }
+  
+  .hija{
+      background: white;  
+      height: 280px;
+      width: 680px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: space-between
+  }
+  
+
+.nieta{
+    background: pink;   
+    height: 250px;
+    width: 650px;
+}
+
+.hija2{
+    background: rgb(255, 255, 255);   
+    height: 280px;
+    width: 680px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+
+.nieta2{
+  background: pink;  
+  height: 250px;
+  width: 650px;
+}
+

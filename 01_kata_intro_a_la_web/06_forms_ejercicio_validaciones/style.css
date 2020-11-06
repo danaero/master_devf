@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-left: 10px;
+}
+
+/*
+
+form:not([type="Check"]) {
+
+    display: inline-flex;
+
+    flex-direction: column;
+
+    margin-left: 10px;
+
+    width: 900px;
+
+    height: 40px;
+
+}
+
+*/ 
+
+input:not([type="submit"]):not([type="checkbox"]) {
+  background: rgb(224, 224, 224);
+
+  padding: 5px;
+
+  border: 5px;
+
+  height: 20px;
+
+  margin-top: 5px;
+
+  width: 900px;
+
+  height: 40px;
+}
+
+label {
+  display: flex;
+
+  margin-right: 5px;
+
+  margin-bottom: 0px;
+
+  margin-top: 20px;
+
+  flex-direction: column;
+}
+
+.check {
+  display: flex;
+
+  align-items: center;
+}
+
+
+
+.Check label {
+
+    background-color: lightcoral;
+
+    width: 150px;
+
+}
+
+ 
+
+.submit input{
+
+    background: rgb(130, 190, 106);
+
+    color: snow;
+
+    text-align: center;
+
+    border: none;
+
+    border: 5px;
+
+    width: 900px;
+
+    height: 40px;
+
+    margin-top: 10px;
+
+}
+
+
+
+a {
+  color: rgb(27, 187, 250);
+}

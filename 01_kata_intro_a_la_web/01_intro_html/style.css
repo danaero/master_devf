@@ -1,0 +1,57 @@
+
+
+h1  {
+    /* propiedad : valor */
+       color: rgba(255, 117, 152, 0.863);
+   
+   }
+   
+   h2 {
+    /* propiedad : valor */
+    color: rgba(255, 117, 147, 0.726);
+   
+   }
+
+   h3 {
+    /* propiedad : valor */
+    color: rgba(255, 117, 147, 0.658);
+   
+   }
+
+   h4 {
+    /* propiedad : valor */
+    color: rgba(255, 117, 147, 0.575);
+   
+   }
+
+   p {
+    /* propiedad : valor */
+       color: rgb(96, 247, 209);
+   
+   }
+   body /* selector */
+    {
+    /* propiedad : valor */
+       color: rgb(189, 189, 189);
+       
+    }
+
+       
+    body /* selector */
+    {
+        background-color: rgba(44, 44, 44, 0.733);
+    }
+
+  
+
+<div>
+  <table>
+    ...
+    <td>Celda 1-1</td>
+    <td>Celda 1-2</td>
+    ...
+  </table>
+</div>
+
+
+
